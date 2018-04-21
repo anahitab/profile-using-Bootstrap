@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--Embed bootstrap-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- FontAwesome CSS for icons -->
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Unit 17 Homework - HTML and CSS - Media quesries</title>
+</head>
+
+<body>
+  <div class="container clearfix">
+    <header>
+      <img src="mypic.jpg" alt="avatar">
+
+      <!-- We use <span> within other elements to target text we want to manipulate -->
+      <!-- Note how this text is all uppercase, take a a look at the CSS to see how it's done -->
+
+      <h1>Hi,
+        <br>my name is 
+        <span>Anahita!</span>
+      </h1>
+    </header>
+
+    <!-- This <div> holds the left side content -->
+
+    <div class="col-md-6">
+
+      <section>
+
+
+        <h2>About Me</h2>
+        <p>My name is Anahita and I am an awesome UI/UX designer.</p>
+      </section>
+      <section>
+        <h2>Education</h2>
+        <ul id="educationList">
+
+
+          <li class="clearfix">
+            <div class="educationLeft">
+              <p class="year">2018</p>
+            </div>
+            <div class="educationRight">
+              <p>
+                <span class="school">University of California, Irvine</span>
+                <br>
+                <span>UI/UX</span>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+     
+        <h2>Experience</h2>
+       <ul id="experienceList">
+          
+            <div class="col-md-4">
+                <div class="experienceLeft2">
+                    <p>
+                      
+                      <span class="where">KnockWise</span>
+                      <br>
+                      <span class="year">2017 - 2018</span>
+                    </p>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="experienceLeft2">
+                      <p>
+                        <br>
+                        <span class="where">Masimo</span>
+                        <br>
+                        <span class="year">June 2017 - Sep 2017</span>
+                      </p>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="experienceLeft2">
+                      <p>
+                        <br>
+                        <span class="where">Calit2</span>
+                        <br>
+                        <span class="year">2015 - 2017</span>
+                      </p>
+                    </div>
+                  
+            </div>
+            <div class="col-md-8">
+                <div class="experienceRight2">
+                    <p>
+                      <span class="profession">UX Designer</span>
+                      <br>
+                      <span class="description">Creating amazing UX/UI experiences for clients around the world.</span>
+                    </p>
+                  </div>
+                  <div class="experienceRight2">
+                      <p>
+                        <span class="profession">UX Desginer</span>
+                        <br>
+                        <span class="description">Designed applications for localization on embedded systems.</span>
+                      </p>
+                    </div>
+                    <div class="experienceRight2">
+                        <p>
+                          <span class="profession">UX Research Assistant</span>
+                          <br>
+                          <span class="description">Assisted in research with design and data management in several fields, such as energy management, healthcare and anthropology.</span>
+                        </p>
+                      </div>
+                  
+            </div>
+
+
+</ul>
+
+
+       
+      
+    </div>
+
+    <!-- This <div> holds the right side content -->
+
+    <div class="col-md-6">
+      <section>
+        <h2>Contact</h2>
+        <ul id="contactList">
+
+          <!-- Checkout those awesome icons from FontAwesome -->
+
+          <li>
+            <a href="tel:4084022093">
+              <i class="fas fa-phone"></i>
+              <span class="contactLink">(408)402-2093</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:bagherpo@uci.edu">
+              <i class="far fa-envelope"></i>
+              <span class="contactLink">bagherpo@uci.edu</span>
+            </a>
+          </li>
+          
+        </ul>
+      </section>
+      <section>
+        <h2>Skills</h2>
+        <ul id="skillsList">
+          <li>HTML/CSS</li>
+          <li>UX</li>
+          <li>User Research</li>
+          <li>Responsive Dsign</li>
+          <li>Sketch</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Hobbies</h2>
+        <ul id="hobbiesList">
+          <li>Dancing</li>
+          <li>Traveling</li>
+          <li>movies</li>
+          <li>reading</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Inspiration Quote</h2>
+        <P id="factsList">
+          <P>“Design creates stories, and stories create memorable experiences, and great experiences have this innate ability to change the way in which we view our world.”
+            <br>-Christian Saylor
+          </P>
+          
+       
+      </section>
+    </div>
+
+
+  </div>
+</body>
+
+</html>
